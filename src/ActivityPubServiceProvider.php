@@ -2,9 +2,9 @@
 
 namespace Dansup\ActivityPub;
 
+use Dansup\ActivityPub\Commands\ActivityPubCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dansup\ActivityPub\Commands\ActivityPubCommand;
 
 class ActivityPubServiceProvider extends PackageServiceProvider
 {

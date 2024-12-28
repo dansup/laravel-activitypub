@@ -2,9 +2,9 @@
 
 namespace Dansup\ActivityPub\Tests;
 
+use Dansup\ActivityPub\ActivityPubServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Dansup\ActivityPub\ActivityPubServiceProvider;
 
 class TestCase extends Orchestra
 {
