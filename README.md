@@ -14,14 +14,6 @@ You can install the package via composer:
 ```bash
 composer require dansup/laravel-activitypub
 ```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-activitypub-migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 
 ```bash
@@ -74,19 +66,12 @@ return [
 ];
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-activitypub-views"
-```
-
 ## Usage
 
-1) First, add the ActorTrait to your `User` model.
+### 1) First, add the ActorTrait to your `User` model.
 
 ```php
 use Dansup\ActivityPub\Traits\ActorTrait;
-
 
 class User extends Authenticatable
 {
@@ -94,7 +79,7 @@ class User extends Authenticatable
 }
 ```
 
-2) Configure your ActivityPub mappings in `config/activitypub.php`
+### 2) Configure your ActivityPub mappings in `config/activitypub.php`
 
 ## Testing
 
